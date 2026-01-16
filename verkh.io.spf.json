@@ -4,7 +4,7 @@
   "serviceId": "spf",
   "serviceName": "SPF Email Authentication",
   "description": "Configure SPF record to authorize email senders for your domain",
-  "variableDescription": "spfRecord: Complete SPF record value (e.g. v=spf1 include:_spf.google.com ~all)",
+  "variableDescription": "spfRecord: SPF mechanisms to authorize email senders (e.g. include:_spf.google.com include:spf.protection.outlook.com)",
   "syncPubKeyDomain": "_domainconnect.verkh.io",
   "syncRedirectDomain": "verkh.io",
   "syncBlock": false,
